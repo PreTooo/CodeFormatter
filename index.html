@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codeviewer</title>
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/code.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="project-heading">Codeviewer:</h2>
+            <p class="project-heading">HTML:</p>
+            <div class="code-container">
+                &lt;<span class="html-element">div</span> <span class="html-argument">class</span>="<span class="html-argument-value">container</span>"&gt; <br>
+                &emsp; ... <br>
+                &lt;/<span class="html-element">div</span>&gt;
+            </div>
+            <p class="project-heading">CSS:</p>
+            <div class="code-container">
+                <span class="css-style-element">body</span>{<br>
+                &emsp;<span class="css-attribute">font</span>: Arial; <br>
+                &emsp;<span class="css-attribute">background-color</span>: <span class="css-func">rgb</span>(33, 33, 33); <br>
+                }<br>
+                <span class="css-style-element">input</span>[<span class="css-style-argument">type=</span><span class="css-style-argument-value">&quot;text&quot;</span>]{<br>
+                &emsp;<span class="css-attribute">background-color</span>: <span class="css-func">rgb</span>(235, 235, 235); <br>
+                } <br>
+            </div>
+            <p class="project-heading">PHP:</p>
+            <div class="code-container">
+                <span class="php-tag">&lt;?php</span> <br>
+                <span class="php-condition">while</span>(do something...){<br>
+                    &emsp;<span class="php-variable">$</span>string = <span class="php-string">&quot;Das ist ein String&quot;</span>;<br>
+                    &emsp;<span class="php-variable">$</span>array = <span class="php-function">array</span>(<span class="php-string">&quot;Ein&quot;, &quot;String&quot;</span>); <br>
+                } <br>
+                <span class="php-tag">?&gt;</span><br>
+            </div>
+            <p class="project-heading">JS:</p>
+            <div class="code-container">
+                ... <br>
+                <span class="js-element">const</span> <span class="js-variable">Stream</span> = <span class="js-function">require</span>(<span class="js-string">'Stream'</span>); <br>
+                <span class="js-element">function</span> <span class="js-function">readStart</span>(socket){ <br>
+                    &emsp;if(socket <span class="js-condition">&&</span> !socket.<span class="js-condition">_paused</span> && socket.<span class="js-condition">readable</span>) <br>
+                    &emsp;&emsp;socket.<span class="js-function">resume</span>(); <br>
+                } <br>
+                ... <br>
+            </div>
+            <p class="project-heading">SQL:</p>
+            <div class="code-container">
+                ... <br>
+                <span class="sql-element">begin</span> <br>
+                <span class="sql-element">INSERT INTO</span> `database` <span class="sql-element">VALUES</span> <br>
+                &emsp;('Smith', 'Will', <span class="sql-int">0</span>, <span class="sql-element">NULL</span>), <br>
+                <span class="sql-element">INSERT INTO</span> `database` <span class="sql-element">VALUES</span> <br>
+                &emsp;('Lohr', 'Wolfgang', <span class="sql-int">4</span>,<span class="sql-element">NULL</span>) <br>
+                <span class="sql-element">end</span> <br>
+                ...
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--
+    &lt; = <
+    &gt; = >
+    &quot; = "
+    &emsp; = Tab
+-->

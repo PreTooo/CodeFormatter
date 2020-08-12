@@ -1,0 +1,69 @@
+/*HTML*/
+.html-element{
+    color: rgb(102, 157, 101);
+}
+.html-argument{
+    color: rgb(50, 120, 205);
+}
+.html-argument-value{
+    color: rgb(40, 74, 114);
+}
+
+/*CSS*/
+.css-style-element{
+    color: rgb(102, 157, 101);
+}
+.css-style-argument{
+    color: rgb(50, 120, 205);
+}
+.css-style-argument-value{
+    color: rgb(40, 74, 114);
+}
+.css-attribute{
+    color: rgb(50, 120, 205);
+}
+.css-func{
+    color: rgb(124, 99, 203);
+}
+
+/*PHP*/
+.php-tag{
+    color: rgb(84, 134, 58);
+}
+.php-variable{
+    color: rgb(41, 109, 200);
+}
+.php-string{
+    color: rgb(3, 47, 98);
+}
+.php-function{
+    color: rgb(111, 66, 193);
+}
+.php-condition{
+    color: rgb(216, 65, 74);
+}
+
+/*SQL*/
+.sql-element{
+    color: rgb(216, 65, 74);
+}
+.sql-int{
+    color: rgb(41, 109, 200);
+}
+
+/*JS*/
+.js-element{
+    color: rgb(216, 65, 74);
+}
+.js-variable{
+    color: rgb(230, 122, 50);
+}
+.js-function{
+    color: rgb(111, 66, 193);
+}
+.js-condition{
+    color: rgb(41, 109, 200);
+}
+.js-string{
+    color: rgb(3, 47, 98);
+}
